@@ -4,7 +4,7 @@ function getUrl() { // перенаправление на ресурс
     $a = explode("\n", file_get_contents('urls.txt')); // разбиение на массив по строкам
     foreach ($a as $str) {
         $temp = explode(";", $str); // разбиение строки на массив
-		if(strcmp($_GET[route], $temp[2]) == 0 ) { // если параметпсовпадение с сгенерированной строкой в списке
+		if(strcmp($_GET[route], $temp[2]) == 0 ) { // если совпадение со сгенерированной строкой в списке
 			header('Location:'.$temp[0].$temp[1]); // перенаправление на нужный ресурс
 		}
 	}
