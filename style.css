@@ -1,0 +1,58 @@
+body {background-color:#B3D8E1; }
+
+
+fieldset { border: solid 1px #DABB8A; padding-top:10px;
+
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+padding: 1em 1em;
+margin: 1em 0em;
+
+}
+
+
+#fil {
+
+    margin:  auto;
+    margin-top: 50px;
+    background-color:#ffffff;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding: 100px;
+
+}
+
+
+
+
+#mylink {
+
+
+
+
+}
+
+#myform {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+
+    }
+
+
+#page_url {
+    margin-top:25px;
+    margin-bottom: 25px;
+    width: 300px;
+    height: 30px;
+
+
+    }
+
+
+#button {
+    height: 35px;
+}
